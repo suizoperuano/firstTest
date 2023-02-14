@@ -1,0 +1,40 @@
+Arguments: 
+  /home/gitpod/.nvm/versions/node/v16.16.0/bin/node /home/gitpod/.nvm/versions/node/v16.16.0/bin/yarn test
+
+PATH: 
+  /workspace/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/ide/bin/remote-cli:/home/gitpod/.nix-profile/bin:/home/gitpod/.local/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/workspace/.cargo/bin:/home/gitpod/.rvm/gems/ruby-3.1.2/bin:/home/gitpod/.rvm/gems/ruby-3.1.2@global/bin:/home/gitpod/.rvm/rubies/ruby-3.1.2/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/ide/bin/remote-cli:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/home/gitpod/.nvm/versions/node/v16.16.0/bin:/home/gitpod/.pyenv/bin:/workspace/.rvm/bin:/home/gitpod/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/home/gitpod/.local/bin:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/gitpod/.nvm/versions/node/v16.16.0/bin:/home/gitpod/.rvm/bin:/home/gitpod/.nvm/versions/node/v16.16.0/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /workspace/exercise-unit-test-with-jest/package.json: Unexpected token { in JSON at position 50
+      at JSON.parse (<anonymous>)
+      at /home/gitpod/.nvm/versions/node/v16.16.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/gitpod/.nvm/versions/node/v16.16.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/gitpod/.nvm/versions/node/v16.16.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "dependencies": {
+      "jest": "^29.4.2"
+    }
+  }
+  {
+    "scripts": {
+      "test": "jest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
